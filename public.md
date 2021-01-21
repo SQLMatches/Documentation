@@ -1,23 +1,39 @@
+# Index
+- [Authentication](#authentication)
+- [API Route](#api-route)
+- [Special Codes](#special-codes)
+    - [Match status codes](#match-status-codes)
+    - [Demo status codes](#demo-status-codes)
+    - [Team side codes](#team-side-codes)
+- [Version](#version)
+- [Profile](#profile)
+- [Community](#community)
+- [Matches](#matches)
+- [Scoreboard](#scoreboard)
+
 ## Authentication
 SQLMatches uses BasicAuth for authentication with the API key being the password.
 
 ## API Route
 ``https://sqlmatches.com/api``
 
-## Match status codes
+## Special Codes
+### Match status codes
 - ``0`` = Finished
 - ``1`` = Live
 
-## Demo status codes
+### Demo status codes
 - ``0`` = No demo
 - ``1`` = Processing
 - ``2`` = Ready for download
 - ``3`` = Too large
 - ``4`` = Expired
 
-## Team side codes
+### Team side codes
 - ``0`` = CT
 - ``1`` = T
+
+---
 
 ## Version
 - ``GET - /version/{major:int}/{minor:int}/{patch:int}/``
@@ -36,6 +52,8 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
     "error": "Invalid version"
 }
 ```
+
+---
 
 ## Profile
 - ``GET - /profile/{steam_id}``
@@ -68,6 +86,9 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
     "error": "Invalid Steam ID"
 }
 ```
+
+---
+
 ## Community
 - ``GET - /community/public``
 ### Status 200
@@ -94,6 +115,9 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
     "error": false
 }
 ```
+
+---
+
 ## Matches
 - ``POST - /matches``
     - Payload
@@ -125,6 +149,9 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
     "error": false
 }
 ```
+
+---
+
 ## Scoreboard
 - ``GET - /match/{match_id}``
     - E.g. ``/match/c10310d5-1b17-4a71-a351-024cc55551fd``

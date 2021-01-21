@@ -7,3 +7,14 @@
 
 ## Documentation
 - [Public API](/public.md)
+    - [Authentication](/public.md#authentication)
+    - [API Route](/public.md#api-route)
+    - [Special Codes](/public.md#special-codes)
+        - [Match status codes](/public.md#match-status-codes)
+        - [Demo status codes](/public.md#demo-status-codes)
+        - [Team side codes](/public.md#team-side-codes)
+    - [Version](/public.md#version)
+    - [Profile](/public.md#profile)
+    - [Community](/public.md#community)
+    - [Matches](/public.md#matches)
+    - [Scoreboard](/public.md#scoreboard)

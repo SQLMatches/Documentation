@@ -1,3 +1,8 @@
+# Help support SQLMatches development & hosting
+- [Subscribe](https://sqlmatches.com/) to SQLMatches on the 'Owner Panel' under the 'Subscriptions / Billing' tab.
+- [Donate via PayPal](https://www.paypal.com/donate?hosted_button_id=ZGS5RJ9FC94GQ)
+
+
 ## Enabling the API for others
 - Go to [SQLMatches.com](https://sqlmatches.com).
 - Visit the owner panel.

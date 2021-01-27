@@ -17,6 +17,8 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
 ## API Route
 ``https://sqlmatches.com/api``
 
+SQLMatches routing requires it to always end in a back slash ('/').
+
 ## Special Codes
 ### Match status codes
 - ``0`` = Finished
@@ -56,8 +58,8 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
 ---
 
 ## Profile
-- ``GET - /profile/{steam_id}``
-    - E.g. ``/profile/76561198077228213``
+- ``GET - /profile/{steam_id}/``
+    - E.g. ``/profile/76561198077228213/``
 ### Status 200
 ```json
 {
@@ -90,7 +92,7 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
 ---
 
 ## Community
-- ``GET - /community/public``
+- ``GET - /community/public/``
 ### Status 200
 ```json
 {
@@ -105,7 +107,7 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
     "error": false
 }
 ```
-- ``GET - /community/exists``
+- ``GET - /community/exists/``
 ### Status 200
 ```json
 {
@@ -119,7 +121,7 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
 ---
 
 ## Matches
-- ``POST - /matches``
+- ``POST - /matches/``
     - Payload
         - search, string, not required
         - page, int, not required
@@ -153,8 +155,8 @@ SQLMatches uses BasicAuth for authentication with the API key being the password
 ---
 
 ## Scoreboard
-- ``GET - /match/{match_id}``
-    - E.g. ``/match/c10310d5-1b17-4a71-a351-024cc55551fd``
+- ``GET - /match/{match_id}/``
+    - E.g. ``/match/c10310d5-1b17-4a71-a351-024cc55551fd/``
 ### Status 200
 ```json
 {

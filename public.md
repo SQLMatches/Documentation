@@ -10,6 +10,7 @@
 - [Community](#community)
 - [Matches](#matches)
 - [Scoreboard](#scoreboard)
+- [Server](#server)
 
 ## Authentication
 SQLMatches uses BasicAuth for authentication with the API key being the password.

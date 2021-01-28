@@ -215,3 +215,25 @@ SQLMatches routing requires it to always end in a back slash ('/').
     "error": false
 }
 ```
+
+---
+
+## Server
+- ``GET - /server/{ip:str}/{port:int}/``
+    - E.g. ``/server/54.37.244.193/27919/``
+### Status 200
+```json
+{
+    "data": {
+        "community_name": "TestLeague",
+        "name": "Ward Dev",
+        "players": 0,
+        "max_players": 12,
+        "ip": "54.37.244.193",
+        "port": 27919,
+        "map": "de_mirage",
+        "cover_image": "https://sqlmatches.com/api/maps/mirage.jpg"
+    },
+    "error": false
+}
+```

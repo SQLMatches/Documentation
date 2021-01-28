@@ -24,3 +24,4 @@
     - [Matches](/public.md#matches)
     - [Scoreboard](/public.md#scoreboard)
     - [Server](/public.md#server)
+    - [Servers](/public.md#servers)

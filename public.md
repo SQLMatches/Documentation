@@ -11,6 +11,7 @@
 - [Matches](#matches)
 - [Scoreboard](#scoreboard)
 - [Server](#server)
+- [Servers](#servers)
 
 ## Authentication
 SQLMatches uses BasicAuth for authentication with the API key being the password.
@@ -234,6 +235,29 @@ SQLMatches routing requires it to always end in a back slash ('/').
         "map": "de_mirage",
         "cover_image": "https://sqlmatches.com/api/maps/mirage.jpg"
     },
+    "error": false
+}
+```
+
+---
+
+## Servers
+- ``GET - /servers/``
+### Status 200
+```json
+{
+    "data": [
+        {
+            "community_name": "TestLeague",
+            "name": "Ward Dev",
+            "players": 0,
+            "max_players": 12,
+            "ip": "54.37.244.193",
+            "port": 27919,
+            "map": "de_mirage",
+            "cover_image": "https://sqlmatches.com/api/maps/mirage.jpg"
+        }
+    ],
     "error": false
 }
 ```

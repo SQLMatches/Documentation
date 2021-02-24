@@ -19,6 +19,7 @@
         - [Demo status codes](/public.md#demo-status-codes)
         - [Team side codes](/public.md#team-side-codes)
     - [Version](/public.md#version)
+    - [Players](/public.md#players)
     - [Profile](/public.md#profile)
     - [Community](/public.md#community)
     - [Matches](/public.md#matches)

@@ -6,6 +6,7 @@
     - [Demo status codes](#demo-status-codes)
     - [Team side codes](#team-side-codes)
 - [Version](#version)
+- [Players](#players)
 - [Profile](#profile)
 - [Community](#community)
 - [Matches](#matches)
@@ -57,6 +58,38 @@ SQLMatches routing requires it to always end in a back slash ('/').
 }
 ```
 
+---
+
+## Players
+- ``GET - /players/``
+    - Payload
+        - search, string, not required
+        - page, int, not required
+        - desc, bool, not required
+### Status 200
+```json
+{
+  "data": [
+    {
+      "name": "Doggy",
+      "steam_id": "76561198050395665",
+      "kills": 36,
+      "headshots": 16,
+      "assists": 6,
+      "deaths": 20
+    },
+    {
+      "name": "Ward",
+      "steam_id": "76561198077228213",
+      "kills": 36,
+      "headshots": 16,
+      "assists": 6,
+      "deaths": 20
+    }
+  ],
+  "error": false
+}
+```
 ---
 
 ## Profile
